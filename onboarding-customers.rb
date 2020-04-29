@@ -28,23 +28,23 @@ while i <= max do
   line << i.to_s
   line << delimiter
 
-  line << fn = FFaker::NameDE.first_name
+  line << fn = FFaker::NameIT.first_name
   line << delimiter
 
-  line << ln = FFaker::NameDE.last_name
+  line << ln = FFaker::NameIT.last_name
   line << delimiter
 
-  line << FFaker::AddressDE.street_name
+  line << FFaker::AddressAU.street_name
   line << delimiter
 
   number = random_normal_dist(0, 30, -250, 250).ceil.abs
   line << number.to_s
   line << delimiter
 
-  line << FFaker::AddressDE.zip_code
+  line << FFaker::AddressAU.zip_code
   line << delimiter
 
-  line << FFaker::AddressDE.city
+  line << FFaker::AddressAU.city
   line << delimiter
 
   line << FFaker::Internet.email("#{fn}.#{ln}")
