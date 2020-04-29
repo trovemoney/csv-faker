@@ -25,6 +25,51 @@ end
 
 while i <= max do
 
+
+# Account Name#
+# Person Account: Title#
+# Person Account: First Name#
+# Person Account: Last Name#
+# UDID#
+# Device Type#
+# Accepted T&C#
+# TroveAccountId#
+# Person Account: Mobile#
+# Person Account: Email#
+# Birth Date#
+# Person Account: Mailing Street#
+# Person Account: Mailing Address Line1#
+# Person Account: Mailing Address Line2#
+# Person Account: Mailing Address Line3#
+# Person Account: Mailing City#
+# Person Account: Mailing State/Province#
+# Person Account: Mailing Zip/Postal Code#
+# Person Account: Mailing Country#
+# Address Lookup#
+# Age Income#
+# Confirm Investments#
+# Email Pass#
+# First Deposit#
+# Goal Reach#
+# Goal Split#
+# Id Method#
+# Id Pending#
+# Id Verified#
+# Personal Details#
+# Select Goals#
+# Terms#
+# Email Verified#
+# Income#
+# IRD Number#
+# PIR#
+# Risk Profile#
+# Tax Resident#
+# Person Account: Email Opt Out#
+# Description#
+# Person Account: Mobile Opt Out#
+# Account Source#
+# Account Record Type#
+
   line << i.to_s
   line << delimiter
 
