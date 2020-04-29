@@ -7,7 +7,7 @@ require 'rubystats'
 FFaker::Random.seed = 12345
 
 line = ''
-delimiter = ';'
+delimiter = ','
 i = 1
 max = ARGV[0].to_i
 
