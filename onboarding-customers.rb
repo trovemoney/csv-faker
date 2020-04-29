@@ -35,7 +35,7 @@ while i <= max do
 
   # Person Account: Title
   titles = ['Mr','Ms','Dr','Don']
-  line = titles.sample
+  line << titles.sample
   line << delimiter
 
   # Person Account: First Name
@@ -103,7 +103,7 @@ while i <= max do
   line << delimiter
 
   # Person Account: Mailing Country
-  line << fn = FFaker::AddressAU.country
+  line << "New Zealand"
   line << delimiter
 
   # Address Lookup
@@ -176,7 +176,7 @@ while i <= max do
   line << delimiter
 
   # Risk Profile
-  line << rand(1..5)
+  line << rand(1..5).to_s
   line << delimiter
 
   # Tax Resident
